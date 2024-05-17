@@ -1,10 +1,19 @@
 import './styles/App.css';
-import { Axios } from 'axios';
+import axios from 'axios';
 import { useState, useEffect } from 'react';
-const { GOOGLE_WEBSITE } = process.env;
+const { REACT_APP_URL } = process.env;
 
 function App() {
   const [cmsContent, setCmsContent] = useState(null);
+
+  useEffect(() => {
+    axios
+      .get(REACT_APP_URL)
+      .then((response) => {
+        console.log(response.data.data);
+        setCmsContent(response.data.data);
+      })
+  }, []);
 
   return (
     <>
