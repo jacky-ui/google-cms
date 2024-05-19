@@ -19,3 +19,8 @@ This repo is for playing and testing of this. I've also noticed that this can be
   <li>Axios, SASS</li>
   <li>Google Sheets</li>
 </ul>
+
+## Other Resources:
+<ul>
+  <li>[Google Sheets... Your Next Database?](https://www.freecodecamp.org/news/how-to-build-a-basic-cms-with-google-sheets-and-reactjs/)</li>
+</ul>
