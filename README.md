@@ -1,6 +1,8 @@
 # Google Sheets as CMS with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+There was an article on freecodecamp about using Google Sheets to build a basic CMS: 
+
+https://www.freecodecamp.org/news/how-to-build-a-basic-cms-with-google-sheets-and-reactjs/
 
 ## Available Scripts
 
