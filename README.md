@@ -17,4 +17,5 @@ This repo is for playing and testing of this. I've also noticed that this can be
 - Google Sheets
 
 ## Other Resources:
-- [Google Sheets... Your Next Database? link] (https://www.freecodecamp.org/news/how-to-build-a-basic-cms-with-google-sheets-and-reactjs/)
+- [Google Sheets... Your Next Database?](https://www.youtube.com/watch?v=K6Vcfm7TA5U)
+- [How to Use Google Sheets as a Simple CMS](https://www.youtube.com/watch?v=15y1D1mGKdE)
