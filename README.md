@@ -2,7 +2,7 @@
 
 There was an article on freecodecamp about using Google Sheets to build a basic CMS: 
 
-https://www.freecodecamp.org/news/how-to-build-a-basic-cms-with-google-sheets-and-reactjs/
+[How to Build a Basic CMS with Google Sheets and React](https://www.freecodecamp.org/news/how-to-build-a-basic-cms-with-google-sheets-and-reactjs/)
 
 This repo is for playing and testing of this. I've also noticed that this can be used as a simple DB.
 
