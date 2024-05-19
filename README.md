@@ -4,6 +4,14 @@ There was an article on freecodecamp about using Google Sheets to build a basic 
 
 https://www.freecodecamp.org/news/how-to-build-a-basic-cms-with-google-sheets-and-reactjs/
 
+This repo is for playing and testing of this. I've also noticed that this can be used as a DB.
+
+## Notes:
+<ul>
+  <li>Super simple to setup and get running</li>
+  <li>App Script is JavaScript. Is cloud-based. Not run by the browser, so unable to use document and HTML methods or classes</li>
+</ul>
+
 ## Tools
 <ul>
   <li>React</li>
