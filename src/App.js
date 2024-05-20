@@ -13,6 +13,9 @@ function App() {
         console.log(response.data.data);
         setCmsContent(response.data.data);
       })
+      .catch((error) => {
+        console.log(`Problem with GET request: ${error}`)
+      })
   }, []);
 
   return (
