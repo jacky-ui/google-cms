@@ -11,8 +11,6 @@ function App() {
     axios
       .get(REACT_APP_URL)
       .then((response) => {
-        console.log(response.data);
-        console.log(typeof([response.data]))
         setCmsContent(response.data.data);
       })
       .catch((error) => {
