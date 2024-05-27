@@ -5,6 +5,7 @@ const { REACT_APP_URL } = process.env;
 
 function App() {
   const [cmsContent, setCmsContent] = useState(null);
+  const [errorMessage, setErrorMessage] = useState('Loading....');
 
   useEffect(() => {
     axios
@@ -14,19 +15,26 @@ function App() {
         setCmsContent(response.data.data);
       })
       .catch((error) => {
+        setErrorMessage('Error with GET request. Check console and/or restart')
         console.log(`Problem with GET request: ${error}`)
       })
   }, []);
 
   return (
     <>
-      <h1>Test using Google Sheets as CMS</h1>
-      <ul>
-        <li>
-          <h2></h2>
-          <p></p>
-        </li>              
-      </ul>
+      {cmsContent ? 
+        <div>
+          <h1>Test using Google Sheets as CMS</h1>
+          <ul>
+            <li>
+              <h2></h2>
+              <p></p>
+            </li>              
+          </ul>
+        </div>
+        :
+        <h1>{errorMessage}</h1>
+      }
     </>
   );
 }
